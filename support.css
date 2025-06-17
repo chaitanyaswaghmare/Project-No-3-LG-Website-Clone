@@ -1,0 +1,56 @@
+#track_my_order{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-top: 5%;
+}
+#track_my_order_text{
+    width: 100%;
+}
+#track_my_order_label{
+    width: 100%;
+}
+.input_field{
+    font-size: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+.track_my_order_child_button{
+    font-size: 1rem;
+    padding: 2%;
+    width: 100%;
+    border-radius: 20px;
+}
+.track_my_order_child{
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.additional_support_child{
+    width: 80%;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 5%;
+    padding: 5%;
+}
+#additional_support{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 5%; 
+}
+#addiitional_support_text{
+    width: 100%;
+}
+@media only screen and (min-width:1024px){
+    .track_my_order_child{
+        width: 30%;
+    }
+    .track_my_order_child_button{
+        margin-top: 3%;
+    }
+    .additional_support_child{
+        width: 30%;
+    }
+}

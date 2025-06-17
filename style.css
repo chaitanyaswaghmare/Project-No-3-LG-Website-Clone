@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+           
+
+}
+body{
+     background-color:#f0ece4;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+#navbar,.navbar_buttons{
+    display: none;
+}
+#logo_image{
+    width: 30%;
+}
+#logo{
+    width: 100%;
+}
+#icons{
+    width: 60%;
+    
+}
+section div img{
+    width: 100%;
+}
+#section2{
+    margin-top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+       
+}
+.section2_child{
+    width: 21%;
+    font-size: 11px;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+#searchicon,#usericon,#carticon,#manu_icon{
+    padding-left: 10%;
+
+}
+#pics_for_you{
+     margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  
+
+   
+}
+#heading{
+    width: 100%;
+    text-align:left;
+}
+.pics_for_you_child{
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 3%;
+    border: 2px solid black;
+    width: 91%;
+    text-align: center;
+    padding: 5%;
+
+}
+.pics_for_you_img{
+    width: 80%;
+    height: 50% ;
+    border-radius: 3%;
+}
+.pics_for_you_text{
+    background-color: white;
+}
+.pics_for_you_child_button{
+    padding: 5%;
+    border-radius: 5%;
+}
+.pics_for_you_child_button:hover{
+    background-color: red;
+}
+#Highlight_story{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+#highlight_story_text{
+    width: 100%;
+    
+}
+.highlight_story_child{
+    width: 100%;
+    background-color: white;
+    width: 80%;
+    border-radius: 5%;
+    text-align: left;
+    margin-top: 5%;
+    padding: 5%;
+}
+.highlight_story_child_button{
+    padding: 5%;
+}
+#Become_an_LG_member{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+.Become_an_LG_member_child{
+    background-color: white;
+    margin-top: 5%;
+    width: 70%;
+    padding: 5%;
+    border-radius: 5%;
+}
+#Become_an_LG_member_text_parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+#Become_an_LG_member_text{
+    width: 100%;
+    
+}
+.Become_an_LG_member_child_parent{
+     display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    
+
+}
+.Become_an_LG_member_child_parent_child_header{
+    width: 80%;
+   
+}
+.Become_an_LG_member_child_parent_child_image{
+    width: 20%;
+    
+}
+.Become_an_LG_member_child_parent_child_description{
+    width: 70%;
+}
+#footer_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+
+}
+.footer_1_child{
+    width: 80%;
+    
+    margin-top: 5%;
+}
+ @media only screen and (min-width:768px){
+    .pics_for_you_child{
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 3%;
+    border: 2px solid black;
+    width: 45%;
+    text-align: center;
+    padding: 5%;
+
+}
+ }
+ @media only screen and (min-width:1024px){
+    header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+   
+
+}
+    #navbar_list li{
+        display: inline-block;
+       margin-left: 30px;
+        
+    }
+    #logo_image{
+    width: 5%;
+}
+   #navbar,.navbar_buttons{
+    display: inline-block;
+} 
+#navigation_links{
+    width: 85%;
+    
+}
+#manu_icon{
+    display: none;
+}
+#icons{
+    width: 7%;
+    
+}
+#searchicon,#usericon,#carticon,#manu_icon{
+    padding-left: 0%;
+
+}
+.section2_child{
+    width: 10%;
+    
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.pics_for_you_child{
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 3%;
+    border: 2px solid black;
+    width: 21%;
+    text-align: center;
+    padding: 1%;
+
+}
+.highlight_story_child{
+   
+    background-color: white;
+    width: 30%;
+    border-radius: 5%;
+    text-align: left;
+    margin-top: 5%;
+    padding: 5%;
+}
+.Become_an_LG_member_child{
+    background-color: white;
+    margin-top: 5%;
+    width: 30%;
+    padding: 5%;
+    border-radius: 5%;
+}
+.footer_1_child{
+    width: 10%;
+    
+    margin-top: 5%;
+}
+ }

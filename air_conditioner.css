@@ -1,0 +1,23 @@
+#air_conditioner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+        margin-top: 5%;
+
+}
+.air_conditioner_child{
+    width: 90%;
+    background-color: white;
+    padding: 3%;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+#air_conditioner_text{
+    width: 100%;
+}
+@media only screen and (min-width:1024px){
+    .air_conditioner_child{
+        width: 30%;
+    }
+}
